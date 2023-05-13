@@ -7,6 +7,11 @@ import styled from 'styled-components'
     display: flex;
     margin-bottom: 80px;
     
+//mobile
+    @media (max-width:767px){
+        height: auto;
+        margin: 0 auto;
+    }
 `
 
 export const NavMenu = styled.nav`
@@ -67,9 +72,65 @@ export const NavMenu = styled.nav`
      }
     }
    }
+//mobile
+    @media (max-width:767px){
+        width: 100%;
+        height: auto;
+        display: flex;
+        margin:0 auto;
+    
+    .social-links{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        margin: 0 auto;
+        text-align: center;
+        row-gap:20px;
+        padding-bottom: 30px;
+    
+        
+        h1{
+            color: #fff;
+            padding-top: 20px;
+            padding-bottom: 15px;
+            font-weight: 300;
+            font-size: 25px;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
 
-   
+        p{
+            color: #fff;
+            font-size: 14px;
+            text-transform: uppercase;
+            padding-bottom: 5px;
 
+        }
+
+        li{
+        list-style: none;
+        
+
+        a{
+            color: #fff;
+            font-size: 14px;
+            text-decoration: none;
+            font-weight: 400;
+            letter-spacing: 1px;
+            
+            span {
+                padding-left: 10px;
+                font-size: 15px;
+            }
+
+            .icons{
+                font-size: 18px;
+            }
+        }
+
+        }
+    }
+    }
 `
 
 
@@ -91,8 +152,10 @@ export const DivForm = styled.div`
         
         
     }
- 
-    
+ //mobile
+    @media (max-width:767px){
+        display: none;
+    }
 `
 
 export const Form = styled.form`

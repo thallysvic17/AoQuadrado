@@ -14,13 +14,13 @@ const Contatos = () =>{
                     <h1>Contatos</h1>
                     <p>Fale conosco</p>
                     <li>
-                     <a href="#"><CiMail/><span>ao2studioarquitetura@gmail.com</span></a>
+                     <a href="#"><CiMail className='icons'/><span>ao2studioarquitetura@gmail.com</span></a>
                     </li>
                     <li>
-                        <a href="#"><BsWhatsapp/><span>(37) 98814-9845 | (37) 99140-1524</span></a>
+                        <a href="#"><BsWhatsapp className='icons'/><span>(37) 98814-9845 | (37) 99140-1524</span></a>
                     </li>
                     <li>
-                         <a href="https://www.instagram.com/ao2studio/"><BsInstagram/><span>@ao2studio</span></a>    
+                         <a href="https://www.instagram.com/ao2studio/"><BsInstagram className='icons'/><span>@ao2studio</span></a>    
                     </li>
                 </ul>
             </NavMenu>

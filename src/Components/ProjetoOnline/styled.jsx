@@ -14,6 +14,20 @@ export const Section3 = styled.section`
         text-transform: uppercase;
         letter-spacing: 1px;
     }
+//mobile
+    @media (max-width:767px){
+        h1{
+        color: #000;
+        padding-top: 30px;
+        padding-bottom:25px;
+        margin: 0 auto;
+        font-size: 25px;
+        text-align: center;
+        font-weight: 300;
+        text-transform: uppercase;
+        letter-spacing: 1px;
+    }
+    }
 `
 
 export const Content = styled.div`
@@ -24,6 +38,16 @@ export const Content = styled.div`
         justify-content: center;
         align-items: center;
         border-bottom: 1px solid #afaeae;    
+
+        @media (max-width:767px){
+            width: 100%;
+            height: auto;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            border-bottom: 1px solid #afaeae; 
+        }
 `
 
 
@@ -54,4 +78,33 @@ export const PctCards = styled.div`
         font-size: 15px;
         cursor: default; 
     }
+//mobile
+    @media (max-width:767px){
+        width: 100%;
+        height: auto;
+        text-align: center;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        row-gap: 2px;
+        margin-top: 25px;
+        margin-bottom: 25px;
+        
+        h2{
+            margin-bottom: 25px;
+            text-transform: uppercase;
+            font-weight: 300;
+            font-size: 20px;
+        }
+
+        h2:hover{
+            cursor: default;
+        }
+
+        p{
+            font-size: 13px;
+            cursor: default; 
+        }
+
+        }
 `
