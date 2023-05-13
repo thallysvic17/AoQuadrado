@@ -18,7 +18,6 @@ export const Logo = styled.div`
 .img{
     margin-left: 50px;
     width: 60px;
-    cursor: pointer;
 }
 
 .lg{
