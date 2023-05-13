@@ -5,8 +5,8 @@ import 'slick-carousel/slick/slick-theme.css';
 import Slider from "react-slick";
 
 
-import img1 from '../../assets/images/Carousel-img/img1.jpg';
 import img2 from '../../assets/images/Carousel-img/img2.jpg';
+import img1 from '../../assets/images/Carousel-img/img1.jpg';
 import img3 from '../../assets/images/Carousel-img/img3.jpg';
 import img4 from '../../assets/images/Carousel-img/img4.jpg';
 
