@@ -78,7 +78,6 @@ export const Asides = styled.div`
     letter-spacing: 1px;
     padding-bottom: 1px;
     text-align: start;
-    font-size: 19px;
         
     }
    

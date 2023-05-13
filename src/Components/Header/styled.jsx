@@ -9,7 +9,7 @@ import styled from 'styled-components'
     width: 100%;
     height: 90px;
     font-family: 'Inter', sans-serif;
-
+   
  `
 
 export const Logo = styled.div`

@@ -20,7 +20,7 @@ const Contatos = () =>{
                         <a href="#"><BsWhatsapp/><span>(37) 98814-9845 | (37) 99140-1524</span></a>
                     </li>
                     <li>
-                         <a href="#"><BsInstagram/><span>@ao2studio</span></a>    
+                         <a href="https://www.instagram.com/ao2studio/"><BsInstagram/><span>@ao2studio</span></a>    
                     </li>
                 </ul>
             </NavMenu>
