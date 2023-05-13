@@ -9,13 +9,13 @@ const Header = () =>{
     return(
         <HeaderStyle>
             <Logo >
-                <img className="img" src= 'src\Components\Header\aoquadrado.jpg' alt="Logo site" />
+                <img className="img" src= '.\src\Components\Header\aoquadrado.jpg' alt="Logo site" />
                 <div className="lg">
                     <h1>Ao quadrado</h1>
                     <p>studio de arquitetura</p>
-                </div>
-                
+                </div>     
             </Logo>
+
             <NavMenu>
             <ul>
                 <li>
