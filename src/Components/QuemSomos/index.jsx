@@ -15,7 +15,7 @@ const QuemSomos = () =>{
                         </div>
                     </Card>
                     <Card>
-                        <img src='.\src\Components\QuemSomos\patricia.jpg' alt="altLog" />
+                        <img src='/Components/QuemSomos/patricia.jpg' alt="altLog" />
                         <div className='rodape'>
                             <h3>Patricia silva de paula</h3>
                             <span>Cau: 249968-1</span>
