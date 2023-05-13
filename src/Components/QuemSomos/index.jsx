@@ -16,30 +16,15 @@ const avatar = [
             <h1>Quem Somos</h1>
             <Content>
                 <Cards>
-                    <Card>
-                        {avatar.map((avatar) => {
-                        if (avatar.id === 1) {
-                        return <img key={avatar.id} src={avatar.src} alt="altLog" />;
-                        }
-                        return null;
-                        })}
-                        <div className="rodape">
-                            <h3>laurenn ferreira cézar</h3>
-                            <span>Cau: 248612-1</span>
-                        </div>
-                    </Card>
-                    <Card>
-                        {avatar.map((avatar) => {
-                        if (avatar.id === 2) {
-                        return <img key={avatar.id} src={avatar.src} alt="altLog" />;
-                        }
-                        return null;
-                        })}
-                        <div className='rodape'>
-                            <h3>Patricia silva de paula</h3>
-                            <span>Cau: 249968-1</span>
-                        </div>
-                    </Card>
+                    {avatar.map((avatarData) => (
+                        <Card key={avatarData.id}>
+                            <img src={avatarData.src} alt="altLog" />
+                            <div className="rodape">
+                            <h3>{avatarData.id === 1 ? 'Lauren Ferreira Cézar' : 'Patricia Silva de Paula'}</h3>
+                            <span>{avatarData.id === 1 ? 'Cau: 248612-1' : 'Cau: 249968-1'}</span>
+                            </div>
+                        </Card>
+                    ))}
                 </Cards>
                     <Asides>
                         <p>
