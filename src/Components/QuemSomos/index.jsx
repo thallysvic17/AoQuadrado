@@ -8,7 +8,7 @@ const QuemSomos = () =>{
             <Content>
                 <Cards>
                     <Card>
-                        <img src='src\assets\logos\laurenn.jpg' alt="altLog" />
+                        <img src='src\assets\logos\lauren.jpg' alt="altLog" />
                         <div className="rodape">
                             <h3>laurenn ferreira cézar</h3>
                             <span>Cau: 248612-1</span>
