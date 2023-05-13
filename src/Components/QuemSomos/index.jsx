@@ -1,5 +1,8 @@
 import {Section2, Content, Card, Cards, Asides} from './styled'
 
+import lgLaurenn from '../../assets/logos/laurenn.jpg'
+
+
 const QuemSomos = () =>{
 
     return(
@@ -8,7 +11,7 @@ const QuemSomos = () =>{
             <Content>
                 <Cards>
                     <Card>
-                        <img src='./src/assets/logos/lauren.jpg' alt="altLog" />
+                        <img src={lgLaurenn} alt="altLog" />
                         <div className="rodape">
                             <h3>laurenn ferreira cézar</h3>
                             <span>Cau: 248612-1</span>
