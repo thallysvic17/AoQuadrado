@@ -1,7 +1,15 @@
 import {Section2, Content, Card, Cards, Asides} from './styled'
 
+import lauren from '../../assets/Images/logos/lauren.jpg'
+import patricia from '../../assets/Images/logos/patricia.jpg'
+
 
 const QuemSomos = () =>{
+
+const avatar = [
+    {id:1, src: lauren},
+    {id:2, src: patricia}
+]
 
     return(
         <Section2>
@@ -9,14 +17,24 @@ const QuemSomos = () =>{
             <Content>
                 <Cards>
                     <Card>
-                        <img src='src\assets\Images\logos\lauren.jpg' alt="altLog" />
+                        {avatar.map((avatar) => {
+                        if (avatar.id === 1) {
+                        return <img key={avatar.id} src={avatar.src} alt="altLog" />;
+                        }
+                        return null;
+                        })}
                         <div className="rodape">
                             <h3>laurenn ferreira cézar</h3>
                             <span>Cau: 248612-1</span>
                         </div>
                     </Card>
                     <Card>
-                        <img src='src\assets\Images\logos\patricia.jpg' alt="altLog" />
+                        {avatar.map((avatar) => {
+                        if (avatar.id === 2) {
+                        return <img key={avatar.id} src={avatar.src} alt="altLog" />;
+                        }
+                        return null;
+                        })}
                         <div className='rodape'>
                             <h3>Patricia silva de paula</h3>
                             <span>Cau: 249968-1</span>
