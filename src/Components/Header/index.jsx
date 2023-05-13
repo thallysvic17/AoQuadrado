@@ -9,7 +9,7 @@ const Header = () =>{
     return(
         <HeaderStyle>
             <Logo >
-                <img className="img" src= 'src/assets/logos/logosite.jpeg' alt="Logo site" />
+                <img className="img" src= 'src\assets\Images\logos\logosite.jpeg' alt="Logo site" />
                 <div className="lg">
                     <h1>Ao quadrado</h1>
                     <p>studio de arquitetura</p>

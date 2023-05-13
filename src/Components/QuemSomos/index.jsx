@@ -1,8 +1,6 @@
 import {Section2, Content, Card, Cards, Asides} from './styled'
 
 
-
-
 const QuemSomos = () =>{
 
     return(
@@ -11,14 +9,14 @@ const QuemSomos = () =>{
             <Content>
                 <Cards>
                     <Card>
-                        <img src='./src/assets/logos/lauren.jpg' alt="altLog" />
+                        <img src='src\assets\Images\logos\lauren.jpg' alt="altLog" />
                         <div className="rodape">
                             <h3>laurenn ferreira cézar</h3>
                             <span>Cau: 248612-1</span>
                         </div>
                     </Card>
                     <Card>
-                        <img src='./src/assets/logos/patricia.jpg' alt="altLog" />
+                        <img src='src\assets\Images\logos\patricia.jpg' alt="altLog" />
                         <div className='rodape'>
                             <h3>Patricia silva de paula</h3>
                             <span>Cau: 249968-1</span>
